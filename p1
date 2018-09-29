@@ -1,0 +1,14 @@
+
+ar=[]
+p=0
+for i in range(10):
+    n=int(input("Enter number:\n"))
+    ar.append(n)
+sr=int(input("Enter number to search:\n"))
+for i in range(10):
+    if sr==ar[i]:
+        print(ar[i],"Found")
+        p=1
+    
+if p==0:
+    print(sr,"Not Found")
